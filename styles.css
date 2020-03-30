@@ -1,0 +1,38 @@
+html {
+	font-family: helvetica, arial, sans serif;
+	background-color: orange;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	text-align: center;
+}
+.checklist {
+	margin: 0 auto;
+	max-width: 75%;
+	max-height: auto;
+
+}
+
+.checklist ul {
+	border: solid 2px black;
+}
+
+.checklist li {
+	font-size: 1.5em;
+	list-style: none;
+	padding: 5px;
+	font-size: 1.75em;
+}
+
+@media (min-width: 1024px) {
+	.checklist {
+		max-width: 50%;
+		max-height: auto;
+	}
+}
