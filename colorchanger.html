@@ -7,11 +7,13 @@
 <body>
 	<button>Click me!</button>
 	<script type="text/javascript">
-		function changeBackground(color) {
-   document.body.style.background = color;
-}
-
-window.addEventListener("click",function() { changeBackground('red', 'green') });
+		var color = ["#FF0000", "#FF8C00", "#FFFF00", "#006400", "#20B2AA"];
+		var i = 0;
+		document.querySelector("button").addEventListener("click",
+			function(){
+				i = i < color.length ? ++i : 0;
+				document.querySelector("body").style.background = color[i]
+			})
 	</script>
 </body>
 </html>
