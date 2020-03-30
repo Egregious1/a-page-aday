@@ -1,0 +1,23 @@
+html {
+	font-family: helvetica, arial, sans serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.date {
+	font-size: .5em;
+	margin: auto;
+	max-width: 75%;
+	text-align: center;
+}
+
+.entry {
+	margin: auto;
+	max-width: 75%;
+}
