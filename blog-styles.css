@@ -1,26 +1,35 @@
 html {
-	font-family: helvetica, arial, sans serif;
-	background-color: cornflowerblue;
+  font-family: helvetica, arial, sans serif;
 }
 
 h1 {
-	font-size: 3em;
-	text-align: center;
+  font-size: 3em;
+  text-align: center;
 }
 
 h2 {
-	font-size: 1em;
-	text-align: center;
+  font-size: 1.5em;
+  text-align: center;
 }
 
+.blog-link {
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+.blog-link a {
+  color: black;
+  text-decoration: none;
+}
 .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	max-width:40%
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 40%;
+  padding: 25px;
 }
 
 .container a {
-	text-decoration: none;
-	color: black;
-	border: solid 2px black;
+  text-decoration: none;
+  color: black;
 }

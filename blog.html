@@ -1,34 +1,95 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Website a day blog</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="main-styles.css">
 </head>
+
 <body>
-<h1>Website a day blog</h1>
-<h3>This blog is to journal my time learning and improving at web development</h3>
-<div class="container">
-	<article>
-		<h1 class="entry-title">Day 3: Started feeling sick</h1>
-		<em class="date">3/31/20</em>
-		<p class="entry">
-			I woke up today in the middle of the afernoon. Somewhere around 2 pm to be honest. I was in a daze and not feeling well at all. I tried focusing on learning some javascript today but it was not going well at all. I can tell you how much I tried to get my shit together long enough to make this work. Its now about 4 am and I am barely able to get this post through. I do have to say that while I was making it a bad day for creating I did spend some time learning a little more about javascript and playing around on a repl or two. I am by no means proficient in anything so lets just say I tried. I also took some time to learn a bit about bootstrap today. I made a navbar but didnt get too far past that. To be fair I am one day ahead of my schedule so I gave myself the day off. I made something this morning before I went to bed hence the whole waking up at 2 am thing. Its not the healthy thing to do I know but you know what I plan on getting up at a reasonable hour tomorrow and maybe taking a nice run through the c-19 insanity outside. Its got to be enough for my brain to feel a little better and maybe give me a little fresh inspiration. Who knows. I might just end up winded and angry.
-		</p>
-	</article>
-	<article>
-		<h1 class="entry-title">Day:2 Color changing!</h1>
-		<em class="date">3/30/20</em>
-		<p class="entry">
-			Its day two and  I decided on making a color changer. Something I thought would be very easy. It really wasn't. To finish this project I needed to use Javascript, something I am very weak with right now which is saying a lot since I am weak with everything right now. I had to take some of the code from a YouTube video I watched to get an idea on how to even complete it. It showed me that I don't know diddly about js , but it did give me some homework to learn what all these functions that I used actually do. I have a pretty good idea what things like querySelector and addEventListener are. Looking at the code its kinda self explanatory. My real issue is not knowing why and how to use them. This is the problem I have with YouTube tutorials. They can be a wealth of information except when it comes to actually teaching with intent. Its not the creators fault they set out to explain something and they did. The page turned out pretty well. I wanted to make a randomly generating background color when clicking on a button but had to settle with the button cycling through an array of colors that I inputted. Looking some of the code for random generators I felt way over my head and really didn't want to just copy and paste to that degree. Still I feel like I am at a decent stopping point with the color changer and as always will like to come back to it when I have more information under my belt and improve it. As for now I need to get back to learning more Javascript since I feel that the majority of my ideas will probably involve a lot of js.
-		</p>
-	</article>
-	<article>
-		<h1 class="entry-title">Day one...sort of</h1>
-		<em class="date">3/29/20</em>
-		<p class="entry">
-			Hi, my name is Brian Kahler. I have been having a rough time trying to teach myself to be a web developer. It has been a great but challenging ride so far, but I have had my share of misgivings. I am not a person that that has a very long attention span which makes sitting and learning things from videos a challenge to say the least. Its been months now that I have taken a serious look at myself and decided that this is something that I wanted to pursue and I did. I think I made some great headway with learning how to setup a page with HTML and stylize it using CSS. I haven't spent nearly enough time learning JavaScript as I would have liked at this point but I believed that maybe it was just too many things to jam into my head and expect to have it stick. Any who...Today I am starting my web page a day challenge to myself. Where I will try on a daily basis make a simple web page to learn specific things about CSS and Javascript. I am focusing on those since I believe that I have a pretty good understanding on how to use HTML, at least enough to be able to hold my own along side a little googling. This blog is to show myself and anyone else who comes across it my thought process and hopefully one day show that anyone with a little bit of will power can learn to code. Right now I am loving the little bit that I know from the random parts of the internet I have learned and I am excited to see where this project will take me next. My first project was an incredibly simple checklist to help me visualize what my plans are. Its absolutely a wip which will be everything I work on here but its a start. I decided to use a ul element instead of just inputs because I want them to be stacked with out having to write too many lines of code. This did give me some problems when I tried to center the whole thing but I think its because I don't totally understand how to move things with in the box model. I really don't even know if that idea is even accurate. It's still day one after all. My next plan is to learn how to make a color changer using only CSS if its possible. I think my biggest problem will be coming up with an idea a day but I think I can have the internet and YouTube to help me. I want to be able to avoid just doing tutorials but I do think that they will have a positive place in the project of mine. I will also be uploading everything that I make onto my GitHub which you can find in the about me section of this page. If you check it out let me know how you would do things differently. I don't have too many people helping me with this if any at all to be honest so any feed back will be greatly appreciated! Thanks!
-		</p>
-	</article>
-</div>
+	<div class="brand">
+		<nav class="navbar navbar-light bg-light">
+			<a class="navbar-brand" href="one-a-day-blog.html">E[one]</a>
+		</nav>
+	</div>
+	<h1>Website a day blog</h1>
+	<h3>This blog is to journal my time learning and improving at web development</h3>
+	<div class="container">
+		<article>
+			<h1 class="entry-title">Day 3: Started feeling sick</h1>
+			<em class="date">3/31/20</em>
+			<p class="entry">
+				I woke up today in the middle of the afernoon. Somewhere around 2 pm to be honest. I was in a daze and
+				not feeling well at all. I tried focusing on learning some javascript today but it was not going well at
+				all. I can tell you how much I tried to get my shit together long enough to make this work. Its now
+				about 4 am and I am barely able to get this post through. I do have to say that while I was making it a
+				bad day for creating I did spend some time learning a little more about javascript and playing around on
+				a repl or two. I am by no means proficient in anything so lets just say I tried. I also took some time
+				to learn a bit about bootstrap today. I made a navbar but didnt get too far past that. To be fair I am
+				one day ahead of my schedule so I gave myself the day off. I made something this morning before I went
+				to bed hence the whole waking up at 2 am thing. Its not the healthy thing to do I know but you know what
+				I plan on getting up at a reasonable hour tomorrow and maybe taking a nice run through the c-19 insanity
+				outside. Its got to be enough for my brain to feel a little better and maybe give me a little fresh
+				inspiration. Who knows. I might just end up winded and angry.
+			</p>
+		</article>
+		<article>
+			<h1 class="entry-title">Day:2 Color changing!</h1>
+			<em class="date">3/30/20</em>
+			<p class="entry">
+				Its day two and I decided on making a color changer. Something I thought would be very easy. It really
+				wasn't. To finish this project I needed to use Javascript, something I am very weak with right now which
+				is saying a lot since I am weak with everything right now. I had to take some of the code from a YouTube
+				video I watched to get an idea on how to even complete it. It showed me that I don't know diddly about
+				js , but it did give me some homework to learn what all these functions that I used actually do. I have
+				a pretty good idea what things like querySelector and addEventListener are. Looking at the code its
+				kinda self explanatory. My real issue is not knowing why and how to use them. This is the problem I have
+				with YouTube tutorials. They can be a wealth of information except when it comes to actually teaching
+				with intent. Its not the creators fault they set out to explain something and they did. The page turned
+				out pretty well. I wanted to make a randomly generating background color when clicking on a button but
+				had to settle with the button cycling through an array of colors that I inputted. Looking some of the
+				code for random generators I felt way over my head and really didn't want to just copy and paste to that
+				degree. Still I feel like I am at a decent stopping point with the color changer and as always will like
+				to come back to it when I have more information under my belt and improve it. As for now I need to get
+				back to learning more Javascript since I feel that the majority of my ideas will probably involve a lot
+				of js.
+			</p>
+		</article>
+		<article>
+			<h1 class="entry-title">Day one...sort of</h1>
+			<em class="date">3/29/20</em>
+			<p class="entry">
+				Hi, my name is Brian Kahler. I have been having a rough time trying to teach myself to be a web
+				developer. It has been a great but challenging ride so far, but I have had my share of misgivings. I am
+				not a person that that has a very long attention span which makes sitting and learning things from
+				videos a challenge to say the least. Its been months now that I have taken a serious look at myself and
+				decided that this is something that I wanted to pursue and I did. I think I made some great headway with
+				learning how to setup a page with HTML and stylize it using CSS. I haven't spent nearly enough time
+				learning JavaScript as I would have liked at this point but I believed that maybe it was just too many
+				things to jam into my head and expect to have it stick. Any who...Today I am starting my web page a day
+				challenge to myself. Where I will try on a daily basis make a simple web page to learn specific things
+				about CSS and Javascript. I am focusing on those since I believe that I have a pretty good understanding
+				on how to use HTML, at least enough to be able to hold my own along side a little googling. This blog is
+				to show myself and anyone else who comes across it my thought process and hopefully one day show that
+				anyone with a little bit of will power can learn to code. Right now I am loving the little bit that I
+				know from the random parts of the internet I have learned and I am excited to see where this project
+				will take me next. My first project was an incredibly simple checklist to help me visualize what my
+				plans are. Its absolutely a wip which will be everything I work on here but its a start. I decided to
+				use a ul element instead of just inputs because I want them to be stacked with out having to write too
+				many lines of code. This did give me some problems when I tried to center the whole thing but I think
+				its because I don't totally understand how to move things with in the box model. I really don't even
+				know if that idea is even accurate. It's still day one after all. My next plan is to learn how to make a
+				color changer using only CSS if its possible. I think my biggest problem will be coming up with an idea
+				a day but I think I can have the internet and YouTube to help me. I want to be able to avoid just doing
+				tutorials but I do think that they will have a positive place in the project of mine. I will also be
+				uploading everything that I make onto my GitHub which you can find in the about me section of this page.
+				If you check it out let me know how you would do things differently. I don't have too many people
+				helping me with this if any at all to be honest so any feed back will be greatly appreciated! Thanks!
+			</p>
+		</article>
+	</div>
 </body>
+
 </html>
