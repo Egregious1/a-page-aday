@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.img_thumbs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  max-width: 75%;
+  margin: auto;
+}
+
+img {
+  width: 900px;
+  height: 900px;
+  object-fit: scale-down;
+}
+
+@media only screen and (max-width: 768px) {
+  .img_thumbs {
+    grid-template-columns: 1fr;
+  }
+}
