@@ -7,10 +7,10 @@ html {
 
 .heading {
   font-family: Monoton;
-  font-size: 65px;
+  font-size: 30px;
   font-weight: 600;
   display: flex;
   float: right;
   margin: auto;
-  text-align: center;\
+  text-align: center;
 }
